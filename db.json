@@ -1,0 +1,304 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "User Name",
+      "darkTheme": true
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Nome do Curso",
+      "slug": "nome-do-curso"
+    },
+    {
+      "id": 2,
+      "name": "Nome do Curso 2",
+      "slug": "nome-do-curso-2"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "order": 1,
+      "title": "Lorem Ipsum 1",
+      "module": 1,
+      "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
+      "video": "499908635",
+      "viewedAt": "Fri May 14 2021 20:47:04 GMT-0300 (Brasilia Standard Time)"
+    },
+    {
+      "id": 2,
+      "courseId": 1,
+      "order": 2,
+      "title": "Lorem Ipsum 2",
+      "module": 1,
+      "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
+      "video": "502084279",
+      "viewedAt": "Fri May 14 2021 20:47:03 GMT-0300 (Brasilia Standard Time)"
+    },
+    {
+      "id": 3,
+      "courseId": 1,
+      "order": 3,
+      "title": "Lorem Ipsum 3",
+      "module": 1,
+      "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
+      "video": "499908635",
+      "viewedAt": "Fri May 14 2021 20:47:02 GMT-0300 (Brasilia Standard Time)"
+    },
+    {
+      "id": 4,
+      "courseId": 1,
+      "order": 4,
+      "title": "Lorem Ipsum 1",
+      "module": 2,
+      "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
+      "video": "502084279",
+      "viewedAt": "Fri May 14 2021 20:47:02 GMT-0300 (Brasilia Standard Time)"
+    },
+    {
+      "id": 5,
+      "courseId": 1,
+      "order": 5,
+      "title": "Lorem Ipsum 2",
+      "module": 2,
+      "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
+      "video": "499908635",
+      "viewedAt": "Fri May 14 2021 20:47:02 GMT-0300 (Brasilia Standard Time)"
+    },
+    {
+      "id": 6,
+      "courseId": 1,
+      "order": 6,
+      "title": "Lorem Ipsum 3",
+      "module": 2,
+      "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
+      "video": "502084279",
+      "viewedAt": "Fri May 14 2021 20:47:00 GMT-0300 (Brasilia Standard Time)"
+    }
+  ],
+  "checkedClasses": [
+    {
+      "id": 1,
+      "classId": 1,
+      "courseId": 1,
+      "userId": 1,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "classId": 2,
+      "courseId": 1,
+      "userId": 1,
+      "checked": true
+    },
+    {
+      "id": 3,
+      "classId": 3,
+      "courseId": 1,
+      "userId": 1,
+      "checked": true
+    },
+    {
+      "id": 4,
+      "classId": 4,
+      "courseId": 1,
+      "userId": 1,
+      "checked": true
+    },
+    {
+      "id": 5,
+      "courseId": 1,
+      "userId": 1,
+      "classId": 5,
+      "checked": true
+    },
+    {
+      "id": 6,
+      "courseId": 1,
+      "userId": 1,
+      "classId": 6,
+      "checked": true
+    }
+  ],
+  "classesRating": [
+    {
+      "classId": 5,
+      "userId": 1,
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "classId": 1,
+      "userId": 1,
+      "rating": 4,
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "userId": 1,
+      "classId": 2,
+      "comment": "teste",
+      "date": "Mon May 03 2021 10:31:47 GMT-0300 (Brasilia Standard Time)",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "classId": 2,
+      "comment": "teste",
+      "date": "Mon May 03 2021 10:32:43 GMT-0300 (Brasilia Standard Time)",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "classId": 2,
+      "comment": "Teste 3",
+      "date": "Mon May 03 2021 10:36:02 GMT-0300 (Brasilia Standard Time)",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "classId": 2,
+      "comment": "Teste 4",
+      "date": "Mon May 03 2021 10:36:18 GMT-0300 (Brasilia Standard Time)",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "classId": 2,
+      "comment": "Teste 5",
+      "date": "Mon May 03 2021 10:39:11 GMT-0300 (Brasilia Standard Time)",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "classId": 3,
+      "comment": "Teste",
+      "date": "Mon May 03 2021 10:41:38 GMT-0300 (Brasilia Standard Time)",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "classId": 3,
+      "comment": "Teste",
+      "date": "Mon May 03 2021 12:06:36 GMT-0300 (Brasilia Standard Time)",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "classId": 1,
+      "comment": "Teste",
+      "date": "Mon May 03 2021 21:24:23 GMT-0300 (Brasilia Standard Time)",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "classId": 1,
+      "comment": "Teste",
+      "date": "Mon May 03 2021 21:30:23 GMT-0300 (Brasilia Standard Time)",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "classId": 1,
+      "comment": "Teste",
+      "date": "Mon May 03 2021 21:30:28 GMT-0300 (Brasilia Standard Time)",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "Teste",
+      "date": "Mon May 03 2021 22:01:57 GMT-0300 (Brasilia Standard Time)",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "classId": 1,
+      "comment": "teste",
+      "date": "Tue May 04 2021 09:38:15 GMT-0300 (Brasilia Standard Time)",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "teste",
+      "date": "Tue May 04 2021 11:30:29 GMT-0300 (Brasilia Standard Time)",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "teste",
+      "date": "Tue May 04 2021 11:37:49 GMT-0300 (Brasilia Standard Time)",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "teste",
+      "date": "Tue May 04 2021 11:38:07 GMT-0300 (Brasilia Standard Time)",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "teste",
+      "date": "Tue May 04 2021 11:40:38 GMT-0300 (Brasilia Standard Time)",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "teste",
+      "date": "Tue May 04 2021 11:41:01 GMT-0300 (Brasilia Standard Time)",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "teste",
+      "date": "Tue May 04 2021 11:42:39 GMT-0300 (Brasilia Standard Time)",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "teste",
+      "date": "Tue May 04 2021 11:43:52 GMT-0300 (Brasilia Standard Time)",
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "classId": 6,
+      "comment": "teste",
+      "date": "Tue May 04 2021 11:47:33 GMT-0300 (Brasilia Standard Time)",
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "classId": 1,
+      "comment": "teste",
+      "date": "Tue May 04 2021 12:06:44 GMT-0300 (Brasilia Standard Time)",
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "classId": 1,
+      "comment": "teste",
+      "date": "Tue May 04 2021 12:06:45 GMT-0300 (Brasilia Standard Time)",
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "classId": 1,
+      "comment": "teste",
+      "date": "Tue May 04 2021 12:06:50 GMT-0300 (Brasilia Standard Time)",
+      "id": 23
+    }
+  ]
+}
