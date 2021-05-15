@@ -41,7 +41,7 @@ const ClassNav = () => {
           >
             <VscChevronLeft size={24} className="text-gray-400" />
             <div className="flex flex-col items-start leading-tight ml-2 font-light">
-              <span className="text-sm text-gray-400">Aula Anterior</span>
+              <span className="text-sm text-gray-400">Previous Class</span>
               <span className="font-medium">{prevButton.title}</span>
             </div>
           </button>
@@ -54,7 +54,7 @@ const ClassNav = () => {
             onClick={() => handleClick(nextButton)}
           >
             <div className="flex flex-col justify-end leading-tight text-right mr-2 font-light">
-              <span className="text-sm text-gray-400">Aula Anterior</span>
+              <span className="text-sm text-gray-400">Next Class</span>
               <span className="font-medium">{nextButton.title}</span>
             </div>
             <VscChevronRight size={24} className="text-gray-400" />

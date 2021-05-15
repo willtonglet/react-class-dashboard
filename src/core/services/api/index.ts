@@ -13,7 +13,7 @@ const headers = new Headers({ "Content-Type": "application/json" });
 const api = {
   async findCourseById(id: string) {
     return new Promise<CourseParams>((resolve, reject) => {
-      fetch(`${baseURL}/${id}`, {
+      fetch(`${baseURL}/courses/${id}`, {
         method: "GET",
         headers,
       })

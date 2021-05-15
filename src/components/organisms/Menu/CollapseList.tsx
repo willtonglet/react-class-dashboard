@@ -22,7 +22,7 @@ const CollapseList = (props: CollapseListProps) => {
         onClick={() => setOpenCollapse(!openCollapse)}
         className="flex items-center justify-between p-3 transition border-b dark:border-gray-700 active:bg-gray-100 dark:active:bg-gray-800 transition duration-150 ease-in-out"
       >
-        <span className="font-bold text-sm">Módulo {module}</span>
+        <span className="font-bold text-sm">Module {module}</span>
         {openCollapse ? <BsFileMinus /> : <BsFilePlus />}
       </li>
 

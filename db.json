@@ -27,7 +27,7 @@
       "module": 1,
       "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
       "video": "499908635",
-      "viewedAt": "Fri May 14 2021 20:47:04 GMT-0300 (Brasilia Standard Time)"
+      "viewedAt": "Sat May 15 2021 18:23:29 GMT-0300 (Brasilia Standard Time)"
     },
     {
       "id": 2,
@@ -37,7 +37,7 @@
       "module": 1,
       "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
       "video": "502084279",
-      "viewedAt": "Fri May 14 2021 20:47:03 GMT-0300 (Brasilia Standard Time)"
+      "viewedAt": "Sat May 15 2021 18:23:08 GMT-0300 (Brasilia Standard Time)"
     },
     {
       "id": 3,
@@ -57,7 +57,7 @@
       "module": 2,
       "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
       "video": "502084279",
-      "viewedAt": "Fri May 14 2021 20:47:02 GMT-0300 (Brasilia Standard Time)"
+      "viewedAt": "Sat May 15 2021 18:31:28 GMT-0300 (Brasilia Standard Time)"
     },
     {
       "id": 5,
@@ -67,7 +67,7 @@
       "module": 2,
       "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
       "video": "499908635",
-      "viewedAt": "Fri May 14 2021 20:47:02 GMT-0300 (Brasilia Standard Time)"
+      "viewedAt": "Sat May 15 2021 18:31:15 GMT-0300 (Brasilia Standard Time)"
     },
     {
       "id": 6,
@@ -77,7 +77,7 @@
       "module": 2,
       "description": "Maecenas euismod dictum egestas. Praesent rhoncus erat et sem ultricies aliquet. Quisque sed euismod lectus, non fermentum tellus. Maecenas rhoncus feugiat lectus, malesuada ornare est vulputate varius. Ut fermentum neque malesuada, tincidunt lectus quis, ultrices arcu. In in massa tincidunt, dapibus justo scelerisque, faucibus nisl. Aliquam tincidunt elit a tellus tempus condimentum. Vestibulum ut neque id libero egestas blandit. Nulla scelerisque orci id nisi hendrerit ullamcorper. Suspendisse consectetur sem at quam porttitor, eu dignissim metus venenatis. Mauris id laoreet libero, in eleifend dolor. Vivamus malesuada iaculis vehicula.",
       "video": "502084279",
-      "viewedAt": "Fri May 14 2021 20:47:00 GMT-0300 (Brasilia Standard Time)"
+      "viewedAt": "Sat May 15 2021 18:31:10 GMT-0300 (Brasilia Standard Time)"
     }
   ],
   "checkedClasses": [
@@ -111,16 +111,16 @@
     },
     {
       "id": 5,
+      "classId": 5,
       "courseId": 1,
       "userId": 1,
-      "classId": 5,
       "checked": true
     },
     {
       "id": 6,
+      "classId": 6,
       "courseId": 1,
       "userId": 1,
-      "classId": 6,
       "checked": true
     }
   ],
@@ -134,8 +134,20 @@
     {
       "classId": 1,
       "userId": 1,
-      "rating": 4,
+      "rating": 2,
       "id": 2
+    },
+    {
+      "classId": 3,
+      "userId": 1,
+      "rating": 3,
+      "id": 3
+    },
+    {
+      "classId": 2,
+      "userId": 1,
+      "rating": 4,
+      "id": 4
     }
   ],
   "comments": [
@@ -299,6 +311,13 @@
       "comment": "teste",
       "date": "Tue May 04 2021 12:06:50 GMT-0300 (Brasilia Standard Time)",
       "id": 23
+    },
+    {
+      "userId": 1,
+      "classId": 2,
+      "comment": "Aula muito boa",
+      "date": "Sat May 15 2021 18:23:17 GMT-0300 (Brasilia Standard Time)",
+      "id": 24
     }
   ]
 }

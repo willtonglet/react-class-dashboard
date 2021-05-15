@@ -13,6 +13,7 @@ import { CheckedParams } from "@core/services/api/interfaces";
 const VideoFrame = () => {
   const { data, dataById } = useContext(AppContext);
   const [hasEnded, setHasEnded] = useState(false);
+  const [isChecked, setIsChecked] = useState(false);
   const { checkedClasses, setCheckedClasses } = useContext(AppContext);
   const videoRef = useRef<HTMLDivElement>(null);
   const { idCourse } = useParams<{ idCourse?: string }>();
@@ -46,7 +47,7 @@ const VideoFrame = () => {
     };
 
     check &&
-      toast(<Toaster type="success">Aula Concluída!</Toaster>, {
+      toast(<Toaster type="success">Class Finished!</Toaster>, {
         type: "success",
       });
 
@@ -60,12 +61,17 @@ const VideoFrame = () => {
   };
 
   const handleIsChecked = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setIsChecked(e.target.checked);
     handlePostChecked(e.target.checked);
   };
 
   useEffect(() => {
     setHasEnded(false);
-  }, []);
+  }, [dataById]);
+
+  useEffect(() => {
+    currentCheckedClass?.checked && setIsChecked(currentCheckedClass.checked);
+  }, [currentCheckedClass?.checked]);
 
   return (
     <>
@@ -87,7 +93,7 @@ const VideoFrame = () => {
                 className="font-light py-2 px-5 border border-gray-700 rounded-md mr-2 flex items-center text-white"
               >
                 <VscRefresh className="mr-2" />
-                Assistir Novamente
+                Watch Again
               </button>
               <button
                 onClick={() =>
@@ -95,7 +101,7 @@ const VideoFrame = () => {
                 }
                 className="font-light py-2 px-5 border border-gray-700 rounded-md flex items-center text-white"
               >
-                Ir para a próxima aula
+                Go to the next class
                 <VscChevronRight className="ml-2" />
               </button>
             </div>
@@ -119,7 +125,7 @@ const VideoFrame = () => {
       >
         {!hasEnded && (
           <div className="flex items-center">
-            <span className="font-light text-sm mr-2">Avalie esta aula:</span>
+            <span className="font-light text-sm mr-2">Rate this class:</span>
             <Rating />
           </div>
         )}
@@ -131,11 +137,11 @@ const VideoFrame = () => {
           <input
             type="checkbox"
             id="checkClassBtn"
-            checked={currentCheckedClass?.checked}
+            checked={isChecked}
             onChange={handleIsChecked}
             className="rounded mr-3"
           />
-          <span className="font-light text-sm">Marcar aula como concluída</span>
+          <span className="font-light text-sm">Check as finished</span>
         </label>
       </div>
     </>

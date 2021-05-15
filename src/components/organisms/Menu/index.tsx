@@ -54,7 +54,7 @@ const Menu = (props: MenuProps) => {
     };
 
     e.target.checked &&
-      toast(<Toaster type="success">Aula Concluída!</Toaster>, {
+      toast(<Toaster type="success">Class Finished!</Toaster>, {
         type: "success",
       });
 
@@ -109,9 +109,9 @@ const Menu = (props: MenuProps) => {
             />
 
             <span className="text-sm ml-2 font-light text-gray-400 leading-4">
-              {progressData.partial} de {progressData.all}
+              {progressData.partial} of {progressData.all}
               <br />
-              aulas completas
+              completed classes
             </span>
           </div>
         )}

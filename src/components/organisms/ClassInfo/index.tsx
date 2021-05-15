@@ -6,7 +6,7 @@ const ClassInfo = () => {
 
   return (
     <div className="p-6 flex-1">
-      <span className="text-sm text-gray-400">Módulo {dataById?.module}</span>
+      <span className="text-sm text-gray-400">Module {dataById?.module}</span>
       <h2 className="dark:text-white font-bold text-2xl mb-5">
         {dataById?.title}
       </h2>

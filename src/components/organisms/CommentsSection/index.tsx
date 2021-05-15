@@ -23,9 +23,7 @@ const CommentsSection = () => {
       .then((data) => setCommentsData && setCommentsData(data))
       .catch(() =>
         toast(
-          <Toaster type="error">
-            Erro inesperado. Tente novamente mais tarde"
-          </Toaster>,
+          <Toaster type="error">Unexpected error. Try again later.</Toaster>,
           {
             type: "error",
           }
@@ -56,7 +54,7 @@ const CommentsSection = () => {
                 size={21}
                 className="text-gray-500 mr-2 dark:text-gray-600"
               />
-              {commentsData?.length} Comentário
+              {commentsData?.length} Comment
               {commentsData?.length > 1 && "s"}
             </h3>
 
@@ -99,7 +97,7 @@ const CommentsSection = () => {
                 className="rounded p-2 flex items-center justify-center text-sm font-light transition duration-200 bg-gray-900 text-white dark:bg-gray-800 border dark:border dark:border-gray-600"
                 onClick={() => setLoadedComments(loadedComments + 5)}
               >
-                Carregar Mais Comentários
+                Load more comments...
                 <VscChevronDown className="ml-2" size={18} />
               </button>
             )}
@@ -111,7 +109,7 @@ const CommentsSection = () => {
                 size={21}
                 className="text-gray-500 mr-2 dark:text-gray-600"
               />
-              Nenhum comentário a ser exibido
+              There are no comments.
             </h3>
           </div>
         )}

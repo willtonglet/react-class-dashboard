@@ -37,7 +37,7 @@ const CommentForm = (props: CommentFormProps) => {
             .catch(() =>
               toast(
                 <Toaster type="error">
-                  Erro inesperado. Tente novamente mais tarde"
+                  Unexpected error. Try again later."
                 </Toaster>,
                 {
                   type: "error",
@@ -54,9 +54,7 @@ const CommentForm = (props: CommentFormProps) => {
         })
         .catch(() =>
           toast(
-            <Toaster type="error">
-              Erro inesperado. Tente novamente mais tarde"
-            </Toaster>,
+            <Toaster type="error">Unexpected error. Try again later."</Toaster>,
             {
               type: "error",
             }
